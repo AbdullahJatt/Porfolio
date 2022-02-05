@@ -33,6 +33,11 @@ a {
     height: 100vh;
     position: relative;
     font-size: 100%;
+    background-image: url(./images/add.jpg);
+    background-repeat: no-repeat;
+    background-size: contain;
+    object-fit: contain;
+    background-position-x: 800px;
 }
 
 nav {
@@ -155,6 +160,9 @@ nav a h1 {
     justify-content: space-evenly;
     align-items: center;
     margin: auto auto 50px auto;
+    background-image: url(./images/abstract-geometric-banner-free-vector.jpg);
+    background-repeat: no-repeat;
+    background-size: contain;
 }
 
 .skill-image {
@@ -194,7 +202,7 @@ nav a h1 {
     height: 30px;
     border-radius: 50% 5% 50% 5%;
     color: var(--main-bg-color);
-    background-color: #dfdee0;
+    background-color: var(--white-color);
     display: flex;
     justify-content: center;
     align-items: center;
