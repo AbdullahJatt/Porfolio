@@ -6,6 +6,11 @@
     --gray: #424242;
     --menu-color: rgb(226, 226, 226);
     --white-color: white;
+    --black-color: black;
+}
+
+html {
+    scroll-behavior: smooth;
 }
 
 *{
@@ -227,7 +232,7 @@ nav a h1 {
 }
 
 .one {
-    background-image: url(./images/2019_DevNation_Cards_TechTalk_C.png);
+    background-image: url(./images/asindex.png);
     background-size: contain;
 }
 
@@ -237,7 +242,7 @@ nav a h1 {
 }
 
 .three {
-    background-image: url(./images/2019_DevNation_Cards_TechTalk_C.png);
+    background-image: url(./images/123index.png);
     background-size: contain;
 }
 
@@ -259,4 +264,101 @@ nav a h1 {
 .project:hover #hide {
     visibility: visible;
     border: 3px solid var(--main-bg-color);
+}
+
+.project-showcase {
+    display: flex;
+    width: 100%;
+    justify-content: space-evenly;
+}
+
+.skill-heading h2 {
+    display: flex;
+    justify-content: center;
+}
+
+ .project-text {
+     color: var(--gray);
+     font-size: 25px;
+     padding: 15px;
+     justify-content: space-evenly;
+ }
+
+ .project-btn {
+     background-color: var(--black-color);
+     color: var(--white-color);
+     padding: 10px;
+     border-radius: 10%;
+     border: 1px solid var(--main-bg-color);
+ }
+
+ .project-btn:hover {
+     background-color: var(--white-color);
+     color: var(--black-color);
+     cursor: pointer;
+ }
+
+/* Contact us  */
+
+#contact-us {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 90%;
+    margin: auto auto 80px auto;
+}
+
+#contact-us img {
+    width: 50%;
+}
+
+#contact-us h3 {
+    margin: 20px;
+    font-size: 30px;
+}
+
+.contact-input {
+    width: 400px;
+    height: 50px;
+    background-color: var(--white-color);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-shadow: rgba(0, 0, 0, 0.45) 0px 25px 20px -20px;
+}
+
+.contact-input input {
+    width: 100%;
+    background: transparent;
+    border: none;
+    outline: none;
+    text-align: center;
+    color: var(--gray);
+}
+
+.contact-input a {
+    width: 200px;
+    height: 40px;
+    color: var(--white-color);
+    background-color: var(--main-bg-color) ;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 5px;
+    margin: auto 10px;
+    font-size: 14px;
+}
+
+/* Footer */
+footer {
+    display: flex;
+    justify-content: space-around;
+    border-top: 1px solid lightgrey;
+}
+
+footer p {
+    margin: 15px 0px;
+    color: var(--gray);
+    font-size: 14px;
 }
